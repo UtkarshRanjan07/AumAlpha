@@ -86,7 +86,7 @@ const Strategy = () => {
 
               <div className="bg-zinc-800 border border-zinc-700 rounded-xl p-6 mb-8">
                 <p className="text-zinc-300">
-                  Watermark Alpha executes trades securely via Remote Access to client's portfolios using sub-accounts or APIs without taking custody.
+                AumAlpha executes trades securely via Remote Access to client's portfolios using sub-accounts or APIs without taking custody.
                 </p>
               </div>
 
@@ -94,7 +94,7 @@ const Strategy = () => {
 
               <div className="bg-zinc-800 border border-zinc-700 rounded-xl p-6 mb-8">
                 <p className="text-zinc-300">
-                  Watermark Alpha works with the teams of all leading exchanges globally such as Binance, Coinbase, KuCoin and Indian exchanges such as CoinDCX, CoinSwitch and more.
+                AumAlpha works with the teams of all leading exchanges globally such as Binance, Coinbase, KuCoin and Indian exchanges such as CoinDCX, CoinSwitch and more.
                 </p>
               </div>
 

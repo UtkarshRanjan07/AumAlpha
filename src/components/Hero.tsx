@@ -24,7 +24,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-white/90 text-lg md:text-xl max-w-3xl mx-auto mb-10 animate-fade-in">
-          Watermark Alpha offers a crypto advisory service helping clients achieve risk-managed, tax-optimized exposure to digital (crypto) assets, leveraging a structured investment approach.
+          AumAlpha offers a crypto advisory service helping clients achieve risk-managed, tax-optimized exposure to digital (crypto) assets, leveraging a structured investment approach.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 animate-fade-in mb-32">
@@ -32,7 +32,7 @@ const Hero = () => {
               <Link to="/contact">Get In Touch</Link>
             </Button>
             <Button asChild variant="outline" className="border-watermark-gold text-watermark-gold hover:bg-watermark-gold/10 hover:text-white px-8 py-6 rounded-md text-lg">
-              <Link to="/contact">Join Watermark Alpha</Link>
+              <Link to="/contact">Join AumAlpha</Link>
             </Button>
 
           </div>

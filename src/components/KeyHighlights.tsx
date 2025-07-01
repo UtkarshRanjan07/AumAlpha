@@ -71,7 +71,7 @@ const KeyHighlights = () => {
                 <span className={`text-sm transition-colors duration-300 ${
                   hoveredIndex === index ? 'text-watermark-gold' : 'text-zinc-500'
                 }`}>
-                  {/* Watermark Alpha Advantage */}
+                  {/* AumAlpha Advantage */}
                 </span>
               </div>
             </div>

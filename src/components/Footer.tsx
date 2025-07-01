@@ -91,7 +91,7 @@ const Footer = () => {
 
         <div className="border-t border-zinc-800 pt-8">
           <p className="text-zinc-500 text-sm text-center">
-            &copy; {currentYear} Watermark Alpha. All rights reserved.
+            &copy; {currentYear} AumAlpha. All rights reserved.
           </p>
         </div>
       </div>

@@ -16,7 +16,7 @@ const founderData = [
     image: '/lovable-uploads/Kushaal.jpeg',
     bio: `Kushaal Patel has been a pioneering force in the Web3 and crypto space since 2016. Since 2019, he has served as a trusted advisor to high-net-worth individuals and family offices, guiding them through the complexities of digital asset investment.
 
-Prior to founding Watermark Alpha, Kushaal led a private crypto advisory specializing in jurisdiction-specific on/off-ramping, advanced custody solutions, compliance frameworks, risk-adjusted strategies, and deep market research. He also served as Chief Operating Officer at EDDAVerse, a leading Web3 enabler and IP holder, where he oversaw strategic growth and innovation.
+Prior to founding AumAlpha, Kushaal led a private crypto advisory specializing in jurisdiction-specific on/off-ramping, advanced custody solutions, compliance frameworks, risk-adjusted strategies, and deep market research. He also served as Chief Operating Officer at EDDAVerse, a leading Web3 enabler and IP holder, where he oversaw strategic growth and innovation.
 
 Kushaal champions a disciplined, conviction-based approach to digital asset allocation, favoring targeted sectoral exposure over excessive diversification to capitalize on high-conviction opportunities. By integrating traditional finance principles with cutting-edge digital asset strategies, he ensures robust, risk-managed portfolios that deliver consistent value.
 
@@ -44,7 +44,7 @@ const About = () => {
               <div className="relative">
                 <div className="absolute -inset-1 bg-gradient-to-r from-watermark-gold to-watermark-goldLight rounded-lg blur opacity-25"></div>
                 <div className="relative bg-zinc-900 border border-zinc-800 rounded-lg p-8">
-                  <h2 className="text-2xl font-bold mb-4">Why Watermark Alpha?</h2>
+                  <h2 className="text-2xl font-bold mb-4">Why AumAlpha?</h2>
 
                   <ul className="space-y-4">
                     <li className="flex items-start">
@@ -72,7 +72,7 @@ const About = () => {
                       <span className="flex-shrink-0 h-6 w-6 bg-watermark-gold rounded-full flex items-center justify-center text-black font-bold mr-3 mt-0.5">✓</span>
                       <div>
                         <h3 className="font-semibold text-white">Control of Assets</h3>
-                        <p className="text-zinc-400">Watermark Alpha does not act as an asset manager, client funds continue to remain in complete control and discretion of the client.</p>
+                        <p className="text-zinc-400">AumAlpha does not act as an asset manager, client funds continue to remain in complete control and discretion of the client.</p>
                       </div>
                     </li>
                   </ul>
