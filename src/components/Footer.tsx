@@ -13,18 +13,18 @@ const Footer = () => {
             <Link to="/" className="inline-block mb-6">
               <img
                 src="/lovable-uploads/Aum_Alpha_Logo.png"
-                alt="Watermark Alpha Logo"
+                alt="Aum Alpha Logo"
                 className="h-32 w-auto"
               />
             </Link>
             <div className="flex space-x-4">
               <Button asChild variant="outline" size="icon" className="rounded-full border-zinc-800 hover:border-watermark-gold hover:bg-transparent">
-                <a href="https://www.linkedin.com/company/watermark-alpha/posts/?feedView=all" target="_blank" rel="noreferrer">
+                <a href="https://www.linkedin.com/company/aumalpha/" target="_blank" rel="noreferrer">
                   <Linkedin size={18} className="text-zinc-400 hover:text-watermark-gold" />
                 </a>
               </Button>
               <Button asChild variant="outline" size="icon" className="rounded-full border-zinc-800 hover:border-watermark-gold hover:bg-transparent">
-                <a href="https://x.com/WatermarkAlpha" target="_blank" rel="noreferrer">
+                <a href="https://x.com/Aum_Alpha" target="_blank" rel="noreferrer">
                   <Twitter size={18} className="text-zinc-400 hover:text-watermark-gold" />
                 </a>
               </Button>
@@ -63,12 +63,14 @@ const Footer = () => {
               <li className="flex items-center">
                 <Mail size={16} className="text-watermark-gold mr-2" />
                 <a
-                  href="mailto:crypto@watermarkalpha.org"
+                  href="mailto:hello@watermarkalpha.org"
                   className="text-zinc-400 hover:text-watermark-gold transition-colors"
                 >
-                  crypto@watermarkalpha.org
+                  hello@watermarkalpha.org
                 </a>
               </li>
+
+              {/* 
               <li className="flex items-center">
                 <Phone size={16} className="text-watermark-gold mr-2" />
                 <a
@@ -78,13 +80,15 @@ const Footer = () => {
                   +91 88779 90038
                 </a>
               </li>
-              {/* New Address Section */}
+
               <li className="flex items-center">
                 <MapPin size={21} className="text-watermark-gold mr-2" />
                 <span className="text-zinc-400 hover:text-watermark-gold transition-colors">
-                 1009 - 1011, Maker Chambers 5, Nariman Point, Mumbai 400021, India
+                  1009 - 1011, Maker Chambers 5, Nariman Point, Mumbai 400021, India
                 </span>
               </li>
+              */}
+
             </ul>
           </div>
         </div>
