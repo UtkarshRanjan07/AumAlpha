@@ -12,9 +12,9 @@ const Footer = () => {
           <div>
             <Link to="/" className="inline-block mb-6">
               <img
-                src="/lovable-uploads/3a96efd8-34e7-4870-947c-9ab9f4346c48.png"
+                src="/lovable-uploads/Aum_Alpha_Logo.png"
                 alt="Watermark Alpha Logo"
-                className="h-28 w-auto"
+                className="h-32 w-auto"
               />
             </Link>
             <div className="flex space-x-4">
