@@ -3,16 +3,11 @@ import { ExternalLink, Linkedin, Twitter } from 'lucide-react';
 
 const founderData = [
   {
-    name: 'Harsh Dalmia',
-    title: 'Co-Founder, Chairman & MD',
-    image: '/lovable-uploads/Harsh.jpeg',
-    bio: `Harsh Dalmia brings over 25 years of distinguished experience in investment banking and financial services. A recognized leader in wealth management innovation, he has served ultra-high-net-worth individuals and family offices globally, crafting bespoke solutions that integrate traditional and emergent asset classes.
-
-With a proven record of syndicating over $3 billion for Indian corporates through complex fundraising and deal structuring, Harsh founded Watermark Capital in 2000, establishing it as a leader in debt syndication and asset management.
-
-An early adopter of crypto since 2016, Harsh has developed sophisticated digital asset allocation and risk management methodologies, underpinned by rigorous market analysis. This expertise culminated in the creation of Watermark Alpha, offering clients compliant, risk-managed exposure to digital assets.
-
-Harsh holds a Bachelor of Business Administration in Economics and Entrepreneurship from Babson College (2000) and is certified by the Securities and Exchange Board of India (SEBI) via the NISM examination. He is an active member of the Punjab and Haryana Chamber of Commerce and Industry and TiE Mumbai, driving economic advancement through technological innovation.`,
+    name: 'Siva Dhamotharan',
+    title: 'Strategic Advisor',
+    image: '/lovable-uploads/Siva.jpeg',
+    bio: `Siva currently serves as Director of Growth for Black Lotus Capital, a discretionary L/S digital asset hedge fund. He leads marketing, operations and fundraising efforts. Previously, he worked In corporate development, working on large scale mergers, acquisitions and integrations for Fortune 500 companies. Siva holds his BA in finance and logistics from the University of Tennessee at Knoxville and an MBA from UNC Kenan-Flagler Business School.
+`,
     linkedin: 'https://www.linkedin.com/in/harsh-dalmia-9696711b7/'
   },
   {
