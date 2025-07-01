@@ -96,7 +96,7 @@ const About = () => {
       <section className="section bg-zinc-900">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
-            <span className="gold-gradient">Meet the Founders</span>
+            <span className="gold-gradient">Team</span>
           </h2>
 
           <div className="space-y-24">
