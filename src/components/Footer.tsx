@@ -63,10 +63,10 @@ const Footer = () => {
               <li className="flex items-center">
                 <Mail size={16} className="text-watermark-gold mr-2" />
                 <a
-                  href="mailto:hello@watermarkalpha.org"
+                  href="mailto:Hello@aumalpha.com"
                   className="text-zinc-400 hover:text-watermark-gold transition-colors"
                 >
-                  hello@watermarkalpha.org
+                  Hello@aumalpha.com
                 </a>
               </li>
 
