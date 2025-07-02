@@ -3,14 +3,6 @@ import { ExternalLink, Linkedin, Twitter } from 'lucide-react';
 
 const founderData = [
   {
-    name: 'Siva Dhamotharan',
-    title: 'Strategic Advisor',
-    image: '/lovable-uploads/Siva.jpeg',
-    bio: `Siva currently serves as Director of Growth for Black Lotus Capital, a discretionary L/S digital asset hedge fund. He leads marketing, operations and fundraising efforts. Previously, he worked In corporate development, working on large scale mergers, acquisitions and integrations for Fortune 500 companies. Siva holds his BA in finance and logistics from the University of Tennessee at Knoxville and an MBA from UNC Kenan-Flagler Business School.
-`,
-    linkedin: 'https://www.linkedin.com/in/harsh-dalmia-9696711b7/'
-  },
-  {
     name: 'Kushaal Patel',
     title: 'Co-Founder, CEO',
     image: '/lovable-uploads/Kushaal.jpeg',
@@ -23,7 +15,16 @@ Kushaal champions a disciplined, conviction-based approach to digital asset allo
 Recognized as a thought leader in India’s crypto landscape, Kushaal contributed to the G20 panel on blockchain during India’s presidency, shaping the dialogue around regulation and innovation. Throughout his career, he has remained dedicated to bridging the gap between conventional wealth management and the rapidly evolving digital asset ecosystem.`,
     linkedin: 'https://www.linkedin.com/in/thekushaalpatel/',
     twitter: 'https://x.com/KushaalPatel'
+  },
+  {
+    name: 'Siva Dhamotharan',
+    title: 'Strategic Advisor',
+    image: '/lovable-uploads/Siva.jpeg',
+    bio: `Siva currently serves as Director of Growth for Black Lotus Capital, a discretionary L/S digital asset hedge fund. He leads marketing, operations and fundraising efforts. Previously, he worked In corporate development, working on large scale mergers, acquisitions and integrations for Fortune 500 companies. Siva holds his BA in finance and logistics from the University of Tennessee at Knoxville and an MBA from UNC Kenan-Flagler Business School.
+`,
+    linkedin: 'https://www.linkedin.com/in/siva-dhamotharan-544b5832/'
   }
+  
 ];
 
 const About = () => {
@@ -96,7 +97,7 @@ const About = () => {
       <section className="section bg-zinc-900">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
-            <span className="gold-gradient">Team</span>
+            <span className="gold-gradient">Our Team</span>
           </h2>
 
           <div className="space-y-24">
