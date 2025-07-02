@@ -38,7 +38,7 @@ const Navbar = () => {
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="flex items-center">
               <img
-                src="/lovable-uploads/Logo.png"
+                src="/lovable-uploads/Logo_no_tag.png"
                 alt="Watermark Alpha Logo"
                 className="h-20 w-auto"
               />
