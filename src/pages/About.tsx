@@ -19,7 +19,7 @@ Recognized as a thought leader in India’s crypto landscape, Kushaal contribute
   {
     name: 'Siva Dhamotharan',
     title: 'Strategic Advisor',
-    image: '/lovable-uploads/Siva.jpeg',
+    image: '/lovable-uploads/siva_1 (1).jpeg',
     bio: `Siva currently serves as Director of Growth for Black Lotus Capital, a discretionary L/S digital asset hedge fund. He leads marketing, operations and fundraising efforts. Previously, he worked In corporate development, working on large scale mergers, acquisitions and integrations for Fortune 500 companies. Siva holds his BA in finance and logistics from the University of Tennessee at Knoxville and an MBA from UNC Kenan-Flagler Business School.
 `,
     linkedin: 'https://www.linkedin.com/in/siva-dhamotharan-544b5832/'
