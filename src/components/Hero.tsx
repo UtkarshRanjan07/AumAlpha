@@ -14,7 +14,7 @@ const Hero = () => {
 
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
           <img 
-            src="/lovable-uploads/Aum_Alpha_Logo.png" 
+            src="/lovable-uploads/Aum_Alpha_Logo2.png" 
             alt="Watermark Alpha Logo" 
             className="mb-6 w-56 md:w-72 h-auto animate-fade-in" 
           />
