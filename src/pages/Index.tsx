@@ -10,6 +10,38 @@ const Index = () => {
   return (
     <main className="bg-black text-white">
       <Hero />
+
+    {/* Our Partners Section */}
+    <section className="section bg-zinc-950 py-16">
+        <div className="max-w-7xl mx-auto px-4 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-10">
+            <span className="gold-gradient">Our Partners</span>
+          </h2>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 items-center justify-center">
+            <img
+              src="/lovable-uploads/coindcx-logo.png"
+              alt="CoinDCX"
+              className="h-10 mx-auto object-contain"
+            />
+            <img
+              src="/lovable-uploads/coinswitch-logo.png"
+              alt="CoinSwitch"
+              className="h-16 mx-auto object-contain"
+            />
+            <img
+              src="/lovable-uploads/coinbase-logo.png"
+              alt="Coinbase"
+              className="h-8 mx-auto object-contain"
+            />
+            <img
+              src="/lovable-uploads/kucoin-logo.png" 
+              alt="KuCoin"
+              className="h-8 mx-auto object-contain"
+            />
+          </div>
+        </div>
+      </section>
+
       <KeyHighlights />
       <Performance />
 
@@ -47,36 +79,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Our Partners Section */}
-      <section className="section bg-zinc-950 py-16">
-        <div className="max-w-7xl mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-10">
-            <span className="gold-gradient">Our Partners</span>
-          </h2>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 items-center justify-center">
-            <img
-              src="/lovable-uploads/coindcx-logo.png"
-              alt="CoinDCX"
-              className="h-10 mx-auto object-contain"
-            />
-            <img
-              src="/lovable-uploads/coinswitch-logo.png"
-              alt="CoinSwitch"
-              className="h-16 mx-auto object-contain"
-            />
-            <img
-              src="/lovable-uploads/coinbase-logo.png"
-              alt="Coinbase"
-              className="h-8 mx-auto object-contain"
-            />
-            <img
-              src="/lovable-uploads/kucoin-logo.png" 
-              alt="KuCoin"
-              className="h-8 mx-auto object-contain"
-            />
-          </div>
-        </div>
-      </section>
+      
 
     </main>
   );
