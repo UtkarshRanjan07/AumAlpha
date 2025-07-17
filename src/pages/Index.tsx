@@ -12,7 +12,7 @@ const Index = () => {
       <Hero />
 
     {/* Our Partners Section */}
-    <section className="section bg-zinc-950 py-16">
+    <section className="section bg-zinc-950 pt-4 pb-6">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-10">
             <span className="gold-gradient">Our Partners</span>
