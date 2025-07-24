@@ -18,26 +18,16 @@ const Index = () => {
             <span className="gold-gradient">Our Partners</span>
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 items-center justify-center">
-            <img
-              src="/lovable-uploads/coindcx-logo.png"
-              alt="CoinDCX"
-              className="h-10 mx-auto object-contain"
-            />
-            <img
-              src="/lovable-uploads/coinswitch-logo.png"
-              alt="CoinSwitch"
-              className="h-16 mx-auto object-contain"
-            />
-            <img
-              src="/lovable-uploads/coinbase-logo.png"
-              alt="Coinbase"
-              className="h-8 mx-auto object-contain"
-            />
-            <img
-              src="/lovable-uploads/kucoin-logo.png" 
-              alt="KuCoin"
-              className="h-8 mx-auto object-contain"
-            />
+            <img src="/lovable-uploads/coindcx-logo.png" alt="CoinDCX" className="h-10 mx-auto object-contain" />
+            <img src="/lovable-uploads/coinswitch-logo.png" alt="CoinSwitch" className="h-16 mx-auto object-contain" />
+            <img src="/lovable-uploads/coinbase-logo.png" alt="Coinbase" className="h-8 mx-auto object-contain" />
+            <img src="/lovable-uploads/kucoin-logo.png" alt="KuCoin" className="h-8 mx-auto object-contain" />
+
+          {/* Spacer to center-align last row */}
+            <div className="hidden sm:block"></div>
+            <img src="/lovable-uploads/Blue_logo.png" alt="Blue" className="h-10 mx-auto object-contain" />
+            <img src="/lovable-uploads/GetBit_logo.png" alt="Get_Bit" className="h-10 mx-auto object-contain" />
+            <div className="hidden sm:block"></div>
           </div>
         </div>
       </section>
