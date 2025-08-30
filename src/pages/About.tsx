@@ -59,7 +59,7 @@ const About = () => {
                       <span className="flex-shrink-0 h-6 w-6 bg-watermark-gold rounded-full flex items-center justify-center text-black font-bold mr-3 mt-0.5">✓</span>
                       <div>
                         <h3 className="font-semibold text-white">Proven Strategies</h3>
-                        <p className="text-zinc-400">A data-driven, research-backed approach to crypto investing</p>
+                        <p className="text-zinc-400">A data-driven, research-backed approach to digital asset investing</p>
                       </div>
                     </li>
                     <li className="flex items-start">

@@ -13,7 +13,7 @@ const Strategy = () => {
             <span className="gold-gradient">Investment Strategy</span>
           </h1>
           <p className="text-xl text-center text-zinc-300 mb-12 max-w-3xl mx-auto">
-            A structured approach to crypto investing that focuses on risk management, compliance, and long-term growth
+            A structured approach to digital asset investing that focuses on risk management, compliance, and long-term growth
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
@@ -171,7 +171,7 @@ const Strategy = () => {
 
                   <li className="flex items-start">
                     <span className="flex-shrink-0 h-6 w-6 bg-watermark-gold rounded-full flex items-center justify-center text-black font-bold mr-4 mt-0.5">✓</span>
-                    <p className="text-zinc-300">Focus on the top 200 crypto assets by market cap</p>
+                    <p className="text-zinc-300">Focus on the top 200 digital assets by market cap</p>
                   </li>
 
                   <li className="flex items-start">

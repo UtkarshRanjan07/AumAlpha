@@ -30,7 +30,7 @@ const highlights = [
   },
   {
     title: "Sector specific investments",
-    description: "The best sectors within crypto are identified, and assets with greatest potential within those sectors are chosen",
+    description: "The best sectors within digital assets are identified, and assets with greatest potential within those sectors are chosen",
     icon: <Layers className="h-6 w-6 text-watermark-gold" />
   },
 ];
