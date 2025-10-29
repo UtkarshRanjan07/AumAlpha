@@ -26,11 +26,12 @@ const Index = () => {
           <img src="/lovable-uploads/kucoin-logo.png" alt="KuCoin" className="h-8 mx-auto object-contain" />
 
           {/* Bottom Row - All 3 Logos Centered */}
-          <div className="col-span-2 sm:col-span-4 flex justify-center items-center gap-x-24">
-            <img src="/lovable-uploads/Blue_logo.png" alt="Blue" className="h-10 object-contain" />
-            <img src="/lovable-uploads/GetBit_logo.png" alt="GetBit" className="h-10 object-contain" />
-            <img src="/lovable-uploads/biance-logo.png" alt="Binance" className="h-16 object-contain" />
+          <div className="col-span-2 sm:col-span-4 grid grid-cols-2 sm:flex sm:flex-row justify-center items-center gap-6 sm:gap-x-0">
+            <img src="/lovable-uploads/Blue_logo.png" alt="Blue" className="h-10 mx-auto object-contain" />
+            <img src="/lovable-uploads/GetBit_logo.png" alt="Get_Bit" className="h-10 object-contain" />
+            <img src="/lovable-uploads/biance-logo.png" alt="Binance" className="h-16 col-span-2 sm:col-span-1 mx-auto object-contain" />
           </div>
+
         </div>
       </div>
     </section>
