@@ -20,16 +20,16 @@ const Index = () => {
 
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 items-center justify-center">
           {/* Top Row */}
-          <img src="/lovable-uploads/coindcx-logo.png" alt="CoinDCX" className="h-10 mx-auto object-contain" />
-          <img src="/lovable-uploads/coinswitch-logo.png" alt="CoinSwitch" className="h-16 mx-auto object-contain" />
-          <img src="/lovable-uploads/coinbase-logo.png" alt="Coinbase" className="h-7 mx-auto object-contain" />
-          <img src="/lovable-uploads/kucoin-logo.png" alt="KuCoin" className="h-8 mx-auto object-contain" />
+          <img src="/lovable-uploads/coindcx-logo.png" alt="CoinDCX - Crypto Investment Exchange" className="h-10 mx-auto object-contain" />
+          <img src="/lovable-uploads/coinswitch-logo.png" alt="CoinSwitch - Digital Asset Platform" className="h-16 mx-auto object-contain" />
+          <img src="/lovable-uploads/coinbase-logo.png" alt="Coinbase - Crypto Fund Custodian" className="h-7 mx-auto object-contain" />
+          <img src="/lovable-uploads/kucoin-logo.png" alt="KuCoin - Blockchain Trading Exchange" className="h-8 mx-auto object-contain" />
 
           {/* Bottom Row - All 3 Logos Centered */}
           <div className="col-span-2 sm:col-span-4 grid grid-cols-2 sm:flex sm:flex-row justify-center items-center gap-6 sm:gap-x-0">
             <img src="/lovable-uploads/Blue_logo.png" alt="Blue" className="h-10 mx-auto object-contain" />
-            <img src="/lovable-uploads/GetBit_logo.png" alt="Get_Bit" className="h-10 object-contain" />
-            <img src="/lovable-uploads/biance-logo.png" alt="Binance" className="h-16 col-span-2 sm:col-span-1 mx-auto object-contain" />
+            <img src="/lovable-uploads/GetBit_logo.png" alt="GetBit - Web3 Portfolio Platform" className="h-10 object-contain" />
+            <img src="/lovable-uploads/biance-logo.png" alt="Binance - Crypto PMS and Advisory Partner" className="h-16 col-span-2 sm:col-span-1 mx-auto object-contain" />
           </div>
 
         </div>
