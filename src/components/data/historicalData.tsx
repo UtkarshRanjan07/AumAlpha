@@ -60,5 +60,11 @@ export const historicalMarketData = [
   { timestamp: "2025-01", bitcoin: 100213.57, nasdaq: 21322.88, nifty: 23366.4 },
   { timestamp: "2025-02", bitcoin: 95279.07, nasdaq: 21585.94, nifty: 23060.94 },
   { timestamp: "2025-03", bitcoin: 85088.63, nasdaq: 19819.15, nifty: 22851.54 },
-  { timestamp: "2025-04", bitcoin: 82237.79, nasdaq: 18404.13, nifty: 22822.22 }
+  { timestamp: "2025-04", bitcoin: 82237.79, nasdaq: 18404.13, nifty: 22822.22 },
+  { timestamp: "2025-05", bitcoin: 104638.09, nasdaq: 16735.01, nifty: 22967.40 },
+  { timestamp: "2025-06", bitcoin: 108202.93, nasdaq: 17194.46, nifty: 23290.15 },
+  { timestamp: "2025-07", bitcoin: 109173.51, nasdaq: 17687.89, nifty: 24680.90 },
+  { timestamp: "2025-08", bitcoin: 102744.29, nasdaq: 18390.51, nifty: 24734.90 },
+  { timestamp: "2025-09", bitcoin: 98044.53, nasdaq: 18902.05, nifty: 25089.50 },
+  { timestamp: "2025-10", bitcoin: 109556.16, nasdaq: 23941.78, nifty: 25901.20 }
 ];

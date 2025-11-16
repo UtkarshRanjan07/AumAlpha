@@ -1,3 +1,12 @@
+export type MarketDataPoint = {
+  timestamp: string; // ✅ explicitly allow string
+  bitcoin: number;
+  nasdaq: number;
+  nifty: number;
+  [key: string]: string | number; // 🔁 update index signature
+};
+
+
 function calculatePercentageChange(data: MarketDataPoint[]): MarketDataPoint[] {
   if (!data.length) return data;
 
