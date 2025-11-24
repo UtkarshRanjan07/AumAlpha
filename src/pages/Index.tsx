@@ -21,7 +21,7 @@ const Index = () => {
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 items-center justify-items-center">
           {/* Top row - 4 logos */}
           <img src="/lovable-uploads/coindcx-logo.png" alt="CoinDCX - Crypto Investment Exchange" className="h-10 object-contain" />
-          <img src="/lovable-uploads/coinswitch-logo.png" alt="CoinSwitch - Digital Asset Platform" className="h-16 object-contain" />
+          <img src="/lovable-uploads/coinswitch-logo2.png" alt="CoinSwitch - Digital Asset Platform" className="h-32 object-contain" />
           <img src="/lovable-uploads/coinbase-logo.png" alt="Coinbase - Crypto Fund Custodian" className="h-7 object-contain" />
           <img src="/lovable-uploads/kucoin-logo.png" alt="KuCoin - Blockchain Trading Exchange" className="h-8 object-contain" />
 
