@@ -18,17 +18,50 @@ const Index = () => {
           <span className="gold-gradient">Our Partners</span>
         </h2>
 
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 items-center justify-items-center">
-          {/* Top row - 4 logos */}
-          <img src="/lovable-uploads/coindcx-logo.png" alt="CoinDCX - Crypto Investment Exchange" className="h-10 object-contain" />
-          <img src="/lovable-uploads/coinswitch-logo2.png" alt="CoinSwitch - Digital Asset Platform" className="h-32 object-contain" />
-          <img src="/lovable-uploads/coinbase-logo.png" alt="Coinbase - Crypto Fund Custodian" className="h-7 object-contain" />
-          <img src="/lovable-uploads/kucoin-logo.png" alt="KuCoin - Blockchain Trading Exchange" className="h-8 object-contain" />
+        {/* Mobile layout: 3 + 3 + 1 */}
+        <div className="grid grid-cols-3 gap-6 items-center justify-items-center sm:hidden">
+          {/* Row 1 */}
+          <img src="/lovable-uploads/coindcx-logo.png" alt="CoinDCX" className="h-10 object-contain" />
+          <img src="/lovable-uploads/coinswitch-logo2.png" alt="CoinSwitch" className="h-20 object-contain" />
+          <img src="/lovable-uploads/coinbase-logo.png" alt="Coinbase" className="h-7 object-contain" />
 
-          {/* Bottom row - 2 logos, centered on desktop */}
-          <img src="/lovable-uploads/GetBit_logo.png" alt="GetBit - Web3 Portfolio Platform" className="h-10 col-span-1 sm:col-start-2 sm:col-span-1 object-contain" />
-          <img src="/lovable-uploads/biance-logo.png" alt="Binance - Crypto PMS and Advisory Partner" className="h-16 col-span-1 sm:col-start-3 sm:col-span-1 object-contain" />
+          {/* Row 2 */}
+          <img src="/lovable-uploads/kucoin-logo.png" alt="KuCoin" className="h-8 object-contain" />
+          <img src="/lovable-uploads/GetBit_logo.png" alt="GetBit" className="h-10 object-contain" />
+          <img src="/lovable-uploads/biance-logo.png" alt="Binance" className="h-16 object-contain" />
+
+          {/* Row 3 – Kraken centered */}
+          <img
+            src="/lovable-uploads/Kraken.png"
+            alt="Kraken"
+            className="h-12 object-contain col-span-3"
+          />
         </div>
+
+        {/* Desktop layout: 4 on top, 3 centered below */}
+        <div className="hidden sm:flex flex-col items-center gap-8">
+          {/* Row 1 – 4 logos */}
+          <div className="grid grid-cols-4 gap-8 items-center justify-items-center w-full">
+            <img src="/lovable-uploads/coindcx-logo.png" alt="CoinDCX" className="h-10 object-contain" />
+            <img src="/lovable-uploads/coinswitch-logo2.png" alt="CoinSwitch" className="h-28 object-contain" />
+            <img src="/lovable-uploads/coinbase-logo.png" alt="Coinbase" className="h-7 object-contain" />
+            <img src="/lovable-uploads/kucoin-logo.png" alt="KuCoin" className="h-8 object-contain" />
+          </div>
+
+          {/* Row 2 – 3 logos, truly centered with spacing */}
+          <div className="flex justify-center gap-28">
+            <img src="/lovable-uploads/GetBit_logo.png" alt="GetBit" className="h-10 object-contain" />
+            <img src="/lovable-uploads/biance-logo.png" alt="Binance" className="h-16 object-contain" />
+            <img src="/lovable-uploads/Kraken.png" alt="Kraken" className="h-12 object-contain" />
+          </div>
+        </div>
+
+
+
+
+
+
+
       </div>
     </section>
 
