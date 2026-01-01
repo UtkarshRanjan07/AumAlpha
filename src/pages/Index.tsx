@@ -43,7 +43,7 @@ const Index = () => {
           {/* Row 1 – 4 logos */}
           <div className="grid grid-cols-4 gap-8 items-center justify-items-center w-full">
             <img src="/lovable-uploads/coindcx-logo.png" alt="CoinDCX" className="h-10 object-contain" />
-            <img src="/lovable-uploads/coinswitch-logo2.png" alt="CoinSwitch" className="h-28 object-contain" />
+            <img src="/lovable-uploads/coinswitch-logo2.png" alt="CoinSwitch" className="h-32 object-contain" />
             <img src="/lovable-uploads/coinbase-logo.png" alt="Coinbase" className="h-7 object-contain" />
             <img src="/lovable-uploads/kucoin-logo.png" alt="KuCoin" className="h-8 object-contain" />
           </div>
@@ -52,15 +52,9 @@ const Index = () => {
           <div className="flex justify-center gap-28">
             <img src="/lovable-uploads/GetBit_logo.png" alt="GetBit" className="h-10 object-contain" />
             <img src="/lovable-uploads/biance-logo.png" alt="Binance" className="h-16 object-contain" />
-            <img src="/lovable-uploads/Kraken.png" alt="Kraken" className="h-12 object-contain" />
+            <img src="/lovable-uploads/Kraken.png" alt="Kraken" className="h-10 object-contain" />
           </div>
         </div>
-
-
-
-
-
-
 
       </div>
     </section>
