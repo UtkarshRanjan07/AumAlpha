@@ -4,7 +4,7 @@ import { ExternalLink, Linkedin, Twitter } from 'lucide-react';
 const founderData = [
   {
     name: 'Kushaal Patel',
-    title: 'Co-Founder, CEO',
+    title: 'Founder & CEO',
     image: '/lovable-uploads/Kushaal.jpeg',
     bio: `Kushaal Patel has been a pioneering force in the Web3 and crypto space since 2016. Since 2019, he has served as a trusted advisor to high-net-worth individuals and family offices, guiding them through the complexities of digital asset investment.
 
