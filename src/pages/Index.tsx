@@ -39,7 +39,7 @@ const Index = () => {
           <img
             src="/lovable-uploads/coinbase-logo.png"
             alt="Coinbase"
-            className="h-6 object-contain col-span-3"
+            className="h-6 object-contain col-span-3 mt-6"
           />
         </div>
 
