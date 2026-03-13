@@ -54,6 +54,11 @@ const Footer = () => {
                   Contact
                 </Link>
               </li>
+              <li>
+                <Link to="/privacy-policy" className="text-zinc-400 hover:text-watermark-gold transition-colors">
+                  Privacy Policy
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -93,10 +98,13 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-zinc-800 pt-8">
-          <p className="text-zinc-500 text-sm text-center">
+        <div className="border-t border-zinc-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <p className="text-zinc-500 text-sm text-center sm:text-left">
             &copy; {currentYear} AumAlpha. All rights reserved.
           </p>
+          <Link to="/privacy-policy" className="text-zinc-500 text-sm hover:text-watermark-gold transition-colors">
+            Privacy Policy
+          </Link>
         </div>
       </div>
     </footer>
